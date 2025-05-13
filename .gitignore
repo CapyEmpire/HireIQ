@@ -1,0 +1,32 @@
+# Node
+node_modules/
+
+# Yarn PnP
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Turbo
+.turbo/
+
+# Build artifacts
+dist/
+apps/**/dist/
+packages/**/dist/
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Testing
+coverage/
+
+# Next.js build output
+.next/
