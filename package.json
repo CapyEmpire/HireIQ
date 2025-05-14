@@ -22,7 +22,10 @@
   "engines": {
     "node": ">=18"
   },
- "packageManager": "yarn@1.22.22",
+  "dependencies": {
+    "@nestjs/core": "^11.0.13"
+  },
+  "packageManager": "yarn@1.22.22",
   "workspaces": [
     "apps/*",
     "packages/*"

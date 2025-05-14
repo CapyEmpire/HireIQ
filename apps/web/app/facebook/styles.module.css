@@ -1,0 +1,50 @@
+.error {
+  color: #e53e3e;
+  background-color: #fed7d7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.success {
+  color: #38a169;
+  background-color: #c6f6d5;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.postGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.postCard {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: white;
+}
+
+.postCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.attachments {
+  margin-top: 1rem;
+}
+
+.attachment {
+  margin-top: 0.5rem;
+}
+
+.attachmentImage {
+  max-width: 100%;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+}

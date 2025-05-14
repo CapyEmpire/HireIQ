@@ -3,7 +3,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "moduleResolution": "node16",
+    "module": "Node16",
+    "lib": ["ES2015", "DOM"],
+    "types": ["node"]
   }
 }

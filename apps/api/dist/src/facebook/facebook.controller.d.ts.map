@@ -1,0 +1,1 @@
+{"version":3,"file":"facebook.controller.d.ts","sourceRoot":"","sources":["../../../src/facebook/facebook.controller.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,eAAe,EAAE,MAAM,oBAAoB,CAAC;AAErD,qBACa,kBAAkB;IACjB,OAAO,CAAC,QAAQ,CAAC,eAAe;gBAAf,eAAe,EAAE,eAAe;IAGvD,QAAQ,CAAsB,UAAU,CAAC,EAAE,MAAM;;;;;IAKjD,YAAY;;;CAGnB"}
